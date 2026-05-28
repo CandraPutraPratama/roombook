@@ -4,6 +4,7 @@ node_modules
 .DS_Store
 Thumbs.db
 PRD_RoomBook.md
+config/database.php
 
 # Local config backup
 *.backup
