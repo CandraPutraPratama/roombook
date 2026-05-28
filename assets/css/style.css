@@ -190,3 +190,52 @@ body {
 .alert {
   border-radius: 12px;
 }
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 160px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.schedule-time {
+  color: #2563eb;
+  font-size: 15px;
+}
+
+.schedule-detail h6 {
+  font-weight: 700;
+}
+
+.schedule-status {
+  text-align: right;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  border: 1px dashed #d1d5db;
+  border-radius: 16px;
+  background: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  .schedule-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .schedule-status {
+    text-align: left;
+  }
+}
