@@ -136,6 +136,21 @@ body {
   color: #1e40af;
 }
 
+.badge-room-available {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-room-maintenance {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-room-unavailable {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
 @media (max-width: 768px) {
   .app-wrapper {
     flex-direction: column;

@@ -1,6 +1,8 @@
 <?php
 
 $pageTitle = "Dashboard";
+$currentPage = "dashboard";
+$baseUrl = "";
 require_once "config/database.php";
 
 $totalRooms = $pdo->query("SELECT COUNT(*) AS total FROM rooms")->fetch()['total'];
